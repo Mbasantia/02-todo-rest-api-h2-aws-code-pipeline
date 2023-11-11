@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
+	//rasmikanta
 	@GetMapping(path = "/")
 	public String successResponse() {
 		return "successResponse";
